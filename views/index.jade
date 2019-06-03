@@ -1,0 +1,35 @@
+extend layout
+
+block content
+  .container 
+    .row
+      .col.flash
+        .alert.alert-primary#notice( hidden="true" ) success!
+        .alert.alert-danger#error( hidden="true") failure!
+    .row.photo
+      .col
+      .col-6.gallows
+        .head#head( hidden="true" )
+        .body#body( hidden="true" )
+        .left-arm#left-arm( hidden="true" )
+        .right-arm#right-arm( hidden="true" )
+        .right-leg#right-leg( hidden="true" )
+        .left-leg#left-leg( hidden="true" )
+        .death#death( hidden="true" ) :-(
+        .win#win( hidden="true" ) :-)
+        .post
+        .hanger
+        .string
+        .base
+      .col
+    .row.display
+      .col
+      .col-6.letters
+        .correctLetters 
+          h2 Correct Letters
+          p#found
+        .incorrectLetters
+          h2 Incorrect Letters
+          p#used 
+      .col
+    
