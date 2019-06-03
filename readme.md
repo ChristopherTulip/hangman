@@ -1,6 +1,5 @@
-# Blank Node Project
-
-Starting point so that I don't need to do config and set up whenever I want to build a new site. I've set this project up in such a way that I think is reasonably clean... until I find some better way to do it.
+# Hangman
+Decided to make hangman because my girlfriend is doing a coding bootcamp and wanted a demo project to look at. 
 
 ## Using
   - [express](http://expressjs.com/) because YOLO
